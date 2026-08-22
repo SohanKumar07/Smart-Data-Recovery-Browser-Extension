@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/HomePage/Home.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
@@ -18,6 +19,12 @@ function App() {
       </Routes>
     </>
   );
+=======
+import Dashboard from "./pages/Dashboard.jsx";
+
+function App() {
+  return <Dashboard />;
+>>>>>>> 8a3e6990be9a6afe82202c8cbf760a68d3970cba
 }
 
 export default App;
